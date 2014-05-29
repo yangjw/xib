@@ -21,6 +21,17 @@
 		93288BD919356D4500311915 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93288BBB19356D4500311915 /* UIKit.framework */; };
 		93288BE119356D4500311915 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93288BDF19356D4500311915 /* InfoPlist.strings */; };
 		93288BE319356D4500311915 /* ControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93288BE219356D4500311915 /* ControllerTests.m */; };
+		93288BEF19356D6100311915 /* POPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93288BED19356D6100311915 /* POPController.m */; };
+		93288BF019356D6100311915 /* POPController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93288BEE19356D6100311915 /* POPController.xib */; };
+		9357A16F19371803009FE0DF /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9357A16E19371803009FE0DF /* View1.xib */; };
+		9357A172193719A6009FE0DF /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9357A171193719A6009FE0DF /* View2.xib */; };
+		9357A17519371AA1009FE0DF /* FileOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9357A17419371AA1009FE0DF /* FileOwner.m */; };
+		9357A17719371AC5009FE0DF /* View3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9357A17619371AC5009FE0DF /* View3.xib */; };
+		9357A17919371BB7009FE0DF /* View4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9357A17819371BB7009FE0DF /* View4.xib */; };
+		9357A17F19371C60009FE0DF /* UIView+help.m in Sources */ = {isa = PBXBuildFile; fileRef = 9357A17E19371C60009FE0DF /* UIView+help.m */; };
+		9357A18219371DFB009FE0DF /* View5.m in Sources */ = {isa = PBXBuildFile; fileRef = 9357A18119371DFB009FE0DF /* View5.m */; };
+		9357A18419371E29009FE0DF /* View5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9357A18319371E29009FE0DF /* View5.xib */; };
+		9357A18619371FA7009FE0DF /* View6.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9357A18519371FA7009FE0DF /* View6.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,21 @@
 		93288BDE19356D4500311915 /* ControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ControllerTests-Info.plist"; sourceTree = "<group>"; };
 		93288BE019356D4500311915 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93288BE219356D4500311915 /* ControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllerTests.m; sourceTree = "<group>"; };
+		93288BEC19356D6100311915 /* POPController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPController.h; sourceTree = "<group>"; };
+		93288BED19356D6100311915 /* POPController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPController.m; sourceTree = "<group>"; };
+		93288BEE19356D6100311915 /* POPController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = POPController.xib; sourceTree = "<group>"; };
+		9357A16E19371803009FE0DF /* View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
+		9357A171193719A6009FE0DF /* View2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View2.xib; sourceTree = "<group>"; };
+		9357A17319371AA1009FE0DF /* FileOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileOwner.h; sourceTree = "<group>"; };
+		9357A17419371AA1009FE0DF /* FileOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileOwner.m; sourceTree = "<group>"; };
+		9357A17619371AC5009FE0DF /* View3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View3.xib; sourceTree = "<group>"; };
+		9357A17819371BB7009FE0DF /* View4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View4.xib; sourceTree = "<group>"; };
+		9357A17D19371C60009FE0DF /* UIView+help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+help.h"; sourceTree = "<group>"; };
+		9357A17E19371C60009FE0DF /* UIView+help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+help.m"; sourceTree = "<group>"; };
+		9357A18019371DFB009FE0DF /* View5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View5.h; sourceTree = "<group>"; };
+		9357A18119371DFB009FE0DF /* View5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View5.m; sourceTree = "<group>"; };
+		9357A18319371E29009FE0DF /* View5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View5.xib; sourceTree = "<group>"; };
+		9357A18519371FA7009FE0DF /* View6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View6.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +138,7 @@
 		93288BBD19356D4500311915 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9357A1701937194D009FE0DF /* New Group */,
 				93288BC619356D4500311915 /* AppDelegate.h */,
 				93288BC719356D4500311915 /* AppDelegate.m */,
 				93288BC919356D4500311915 /* Main.storyboard */,
@@ -119,6 +146,18 @@
 				93288BCD19356D4500311915 /* ViewController.m */,
 				93288BCF19356D4500311915 /* Images.xcassets */,
 				93288BBE19356D4500311915 /* Supporting Files */,
+				9357A17319371AA1009FE0DF /* FileOwner.h */,
+				9357A17419371AA1009FE0DF /* FileOwner.m */,
+				9357A16E19371803009FE0DF /* View1.xib */,
+				9357A171193719A6009FE0DF /* View2.xib */,
+				9357A17619371AC5009FE0DF /* View3.xib */,
+				9357A17819371BB7009FE0DF /* View4.xib */,
+				9357A17D19371C60009FE0DF /* UIView+help.h */,
+				9357A17E19371C60009FE0DF /* UIView+help.m */,
+				9357A18019371DFB009FE0DF /* View5.h */,
+				9357A18119371DFB009FE0DF /* View5.m */,
+				9357A18319371E29009FE0DF /* View5.xib */,
+				9357A18519371FA7009FE0DF /* View6.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -150,6 +189,16 @@
 				93288BDF19356D4500311915 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9357A1701937194D009FE0DF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				93288BEC19356D6100311915 /* POPController.h */,
+				93288BED19356D6100311915 /* POPController.m */,
+				93288BEE19356D6100311915 /* POPController.xib */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +278,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				93288BD019356D4500311915 /* Images.xcassets in Resources */,
+				9357A17919371BB7009FE0DF /* View4.xib in Resources */,
+				9357A18419371E29009FE0DF /* View5.xib in Resources */,
+				9357A16F19371803009FE0DF /* View1.xib in Resources */,
+				93288BF019356D6100311915 /* POPController.xib in Resources */,
+				9357A18619371FA7009FE0DF /* View6.xib in Resources */,
 				93288BC219356D4500311915 /* InfoPlist.strings in Resources */,
 				93288BCB19356D4500311915 /* Main.storyboard in Resources */,
+				9357A17719371AC5009FE0DF /* View3.xib in Resources */,
+				9357A172193719A6009FE0DF /* View2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +306,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				93288BCE19356D4500311915 /* ViewController.m in Sources */,
+				93288BEF19356D6100311915 /* POPController.m in Sources */,
+				9357A17F19371C60009FE0DF /* UIView+help.m in Sources */,
 				93288BC819356D4500311915 /* AppDelegate.m in Sources */,
+				9357A18219371DFB009FE0DF /* View5.m in Sources */,
+				9357A17519371AA1009FE0DF /* FileOwner.m in Sources */,
 				93288BC419356D4500311915 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +518,7 @@
 				93288BE819356D4500311915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93288BE919356D4500311915 /* Build configuration list for PBXNativeTarget "ControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +527,7 @@
 				93288BEB19356D4500311915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
